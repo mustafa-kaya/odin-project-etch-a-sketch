@@ -1,5 +1,6 @@
 @import url(../src/blocks/common/normalize.css);
 @import url(../src/blocks/tool/tool.css);
+@import url(../src/blocks/color/color.css);
 
 /* Font usage */
 /* font-family: 'Playfair Display', serif; */
@@ -9,6 +10,7 @@
 :root {
   --black: 0, 0, 0;
   --white: 255, 255, 255;
+  --color: 233, 196, 106;
 }
 
 html {
