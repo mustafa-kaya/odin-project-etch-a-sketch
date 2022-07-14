@@ -1,0 +1,35 @@
+.tool {
+  color: rgba(var(--white), 1);
+  background-color: rgba(var(--black), 0.6);
+  
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .tool states */
+.tool:hover {
+  cursor: pointer;
+  background-color: rgba(var(--black), 0.8);
+}
+
+.tool:active {
+  background-color: rgba(var(--black), 1);
+}
+
+.tool__text {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+}
+
+.tool--selected {
+  background-color: rgba(var(--black), 1);
+  box-shadow: 0 0 0 6px rgba(var(--black), 0.15);
+  pointer-events: none;
+}

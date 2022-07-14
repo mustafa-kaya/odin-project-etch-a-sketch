@@ -1,8 +1,15 @@
 @import url(../src/blocks/common/normalize.css);
+@import url(../src/blocks/tool/tool.css);
 
 /* Font usage */
 /* font-family: 'Playfair Display', serif; */
 /* font-family: 'Work Sans', sans-serif; */
+
+/* Custom Properties */
+:root {
+  --black: 0, 0, 0;
+  --white: 255, 255, 255;
+}
 
 html {
   box-sizing: border-box;
